@@ -1,1 +1,5 @@
-# Task-2
+| Blockchain Name            | Type       | Consensus Mechanism Used                 | Permission Model | Speed / Throughput   | Smart Contract Support  | Token Support        | Typical Use Case                   | Notable Technical Feature               |
+| -------------------------- | ---------- | ---------------------------------------- | ---------------- | -------------------- | ----------------------- | -------------------- | ---------------------------------- | --------------------------------------- |
+| Ethereum                   | Public     | Proof of Stake (PoS)                     | Open             | \~15–30 TPS          | Yes (Solidity, Vyper)   | Yes (Ether – Native) | Decentralized applications (dApps) | EVM, large developer ecosystem          |
+| Hyperledger Fabric         | Private    | Pluggable (default: RAFT)                | Permissioned     | 1000+ TPS            | Yes (Go, Java, Node.js) | No native token      | Enterprise/internal systems        | Modular, private channels, pluggable    |
+| R3 Corda (Consortium Mode) | Consortium | Notary-based (validating/non-validating) | Permissioned     | \~170 TPS (scalable) | Yes (Kotlin, Java)      | No native token      | Financial institutions, inter-bank | Peer-to-peer, contract validation logic |
